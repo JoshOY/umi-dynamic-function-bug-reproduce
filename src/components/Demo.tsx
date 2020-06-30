@@ -2,7 +2,7 @@ import React from 'react';
 
 export interface DemoProps {
   propsA: string;
-  propsB: boolean;
+  propsB: number;
 }
 
 export const Demo: React.FC<DemoProps> = props => {

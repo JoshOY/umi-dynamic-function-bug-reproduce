@@ -6,10 +6,10 @@ export default () => {
   return (
     <div>
       <h1 className={styles.title}>Page index</h1>
-      {/* type of properties cannot be inferred properly */}
+      {/* type of properties cannot be inferred, but renders properly */}
       <AsyncDemo
         propsA="hello"
-        propsB={true}
+        propsB={1}
       />
     </div>
   );
